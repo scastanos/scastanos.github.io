@@ -1,0 +1,103 @@
+/*body layout */
+h1 {
+	font-family: 'Poiret one', cursive;
+	font-size: 45px;
+	color: #FF9D9D;
+	font-weight: bold; 
+	text-align: center;
+}
+
+
+
+h2 {
+	font-family: 'Give You Glory', cursive;
+	font-size: 14px;
+	color:#6E6565; 
+	text-align: center;
+	border: inline;
+	line-height: 1%;
+}
+
+
+
+
+p {
+	font-family: 'Poiret One', Verdana;
+	color:  #6E6565; 
+	font-size: 18px;
+	margin-left: 50px;
+	
+	letter-spacing: 2px;
+	
+}
+
+div img {
+	margin: 0px 50px 0px 8px;
+	padding: 5px;
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+.titles {
+	font-family: 'Give You Glory', Verdana;
+	font-style: bold;
+	color: #6E6565;
+	font-size: 25px;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+	color:  #6E6565; 
+
+}
+
+
+/*body layout ends here*/
+
+
+/*footer begins here*/
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+footer div nav ul li {
+		float:right;
+		list-style: none;
+		display: inline-block;
+		margin-top: 35px;
+		margin-right: 35px;
+
+
+}
+
+
+
+a.bloglink {
+
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Poiret One', Verdana;
+	font-size: 25px;
+	color: #FF9D9D;
+	margin-right: 50px;
+	margin-top: 10px;
+	
+	display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
