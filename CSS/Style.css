@@ -26,8 +26,8 @@ p {
 	color:  #6E6565; 
 	font-size: 18px;
 	margin-left: 50px;
-	
 	letter-spacing: 2px;
+	line-height: 1.5em;
 	
 }
 
@@ -55,6 +55,27 @@ a:link {
 
 }
 
+.bullet {
+	color: #FF9D9D;
+	float: left;
+	margin-left: 3em;
+
+}
+
+p2 {
+	font-family: 'Poiret One', Verdana;
+	color:  #6E6565; 
+	font-size: 18px;
+	letter-spacing: 2px;
+	float:right;
+	
+	
+
+
+}
+
+
+
 
 /*body layout ends here*/
 
@@ -62,17 +83,18 @@ a:link {
 /*footer begins here*/
 
 
-ol, ul {
-	list-style: none;
-}
+
 
 
 footer div nav ul li {
-		float:right;
+		float:left;
 		list-style: none;
-		display: inline-block;
-		margin-top: 35px;
-		margin-right: 35px;
+		margin-top: 5em;
+		margin-left: 1.7em;
+		padding-bottom: .5em;
+	
+		
+
 
 
 }
@@ -80,16 +102,15 @@ footer div nav ul li {
 
 
 a.bloglink {
-
+	padding-right: 2em;
+	padding-top: .6em;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Poiret One', Verdana;
 	font-size: 25px;
 	color: #FF9D9D;
-	margin-right: 50px;
-	margin-top: 10px;
-	
 	display: inline-block;
+	float: left;
 
 }
 
