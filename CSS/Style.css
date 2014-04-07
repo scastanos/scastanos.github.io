@@ -91,6 +91,7 @@ footer div nav ul li {
 		list-style: none;
 		margin-top: 5em;
 		margin-left: 1.7em;
+
 		padding-bottom: .5em;
 	
 		
@@ -110,7 +111,8 @@ a.bloglink {
 	font-size: 25px;
 	color: #FF9D9D;
 	display: inline-block;
-	float: left;
+	
+
 
 }
 
