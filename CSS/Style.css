@@ -255,13 +255,14 @@ a.bloglink {
  footer nav ul li {
 		float:left;
 		list-style: none;
-		margin: -.2em auto;
+		margin:  .1;
 		display: inline-block;
-		
-
-
 
  }
+
+
+
+
 }
 @media mobile, screen and (max-width: 960px) {
   /* line 39, ../sass/_mobile.scss */
