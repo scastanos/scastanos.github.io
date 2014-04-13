@@ -1,65 +1,165 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* This resets all styles across browsers. */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+script {
+	display: none;
+}
+
 /*body layout */
+
+head {
+
+	display: none;
+}
+
+
+body {
+	background: white;
+	display: block;
+}
+
+
+
+header {
+	background: #8E7692 ;
+	height: 30em;
+	width: 100%;
+}
+
+
+
+
+header h1 {
+	
+	padding-top: 2em;
+	margin: 0;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	font-size: 60px;
+}
+
+.headshot img {
+ 	background: url("images/PNG/me.png");
+  	background-size: contain;
+  	border: .5em solid white;
+  	border-radius: 100%;
+  	height: 300px;
+  	margin: 0 auto;
+  	position: relative;
+  	top: 5em;
+  	width: 300px;
+  	display: block;
+
+}
+
+
+
+
 h1 {
 	font-family: 'Poiret one', cursive;
-	font-size: 45px;
 	color: #FF9D9D;
 	font-weight: bold; 
 	text-align: center;
+
+	border: inline;
 }
 
 
 
 h2 {
 	font-family: 'Give You Glory', cursive;
-	font-size: 14px;
-	color:#6E6565; 
+	font-size: 16px;
+	color:white; 
 	text-align: center;
 	border: inline;
-	line-height: 1%;
+	line-height: 1.8em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+article {
+	float: left;
+  	padding: 0 5%;
+  	margin: 0 auto;
+  	width: 40%;
+}
+
+
+.titles {
+	font-family: 'Give You Glory', Verdana;
+	font-style: bold;
+	color: #FF9D9D;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 6em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	padding-top: 5em;
+
 }
 
 
 
 
-p {
+p{
+	display: block;
 	font-family: 'Poiret One', Verdana;
 	color:  #6E6565; 
 	font-size: 18px;
 	margin-left: 50px;
 	letter-spacing: 2px;
 	line-height: 1.5em;
-	
-}
-
-div img {
-	margin: 0px 50px 0px 8px;
-	padding: 5px;
-	float: right;
-	vertical-align: top;
-	display: inline-block;
-
-}
-
-.titles {
-	font-family: 'Give You Glory', Verdana;
-	font-style: bold;
-	color: #6E6565;
-	font-size: 25px;
-	padding-left: 50px;
-	font-weight: bold;
 }
 
 a:link {
 	text-decoration: none;
 	color:  #6E6565; 
+}
 
+a:hover {
+
+	font-size: 28px;
 }
 
 .bullet {
 	color: #FF9D9D;
-	float: left;
-	margin-left: 3em;
 
+
+	margin-left: 10em;
+}
+
+span {
+	color: #FF9D9D;
+	float: left;
 }
 
 p2 {
@@ -67,13 +167,15 @@ p2 {
 	color:  #6E6565; 
 	font-size: 18px;
 	letter-spacing: 2px;
-	float:right;
+	display: block;
+	line-height: 1.9em;
 	
-	
-
-
 }
 
+section {
+  margin: auto;
+  width: 1000px;
+}
 
 
 
@@ -83,38 +185,44 @@ p2 {
 /*footer begins here*/
 
 
+footer {
+  
+  clear: both;
+  
+}
 
 
-
-footer div nav ul li {
+footer nav ul li {
 		float:left;
 		list-style: none;
-		margin-top: 5em;
-		margin-left: 1.7em;
+		margin: 3em 0 1em 10em;
 		display: inline-block;
-		padding-bottom: .5em;
-	
-		
-
-
+		padding: .5em;
 
 }
 
 
-
 a.bloglink {
 	padding-right: 2em;
-	padding-top: .6em;
+	padding-top: .5em;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Poiret One', Verdana;
 	font-size: 25px;
 	color: #FF9D9D;
 	display: inline-block;
-	
-
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
