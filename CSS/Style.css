@@ -153,6 +153,8 @@ a:hover {
 
 .bullet {
 	color: #FF9D9D;
+	
+
 
 
 	margin-left: 10em;
@@ -169,7 +171,8 @@ p2 {
 	font-size: 18px;
 	letter-spacing: 2px;
 	display: block;
-	line-height: 1.9em;
+	line-height: 2.5em;
+
 	
 }
 
@@ -255,7 +258,7 @@ a.bloglink {
  footer nav ul li {
 		float:left;
 		list-style: none;
-		margin:  .1;
+		margin:  .1 ;
 		display: inline-block;
 
  }
