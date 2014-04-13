@@ -70,7 +70,7 @@ header h1 {
 }
 
 .headshot img {
- 	background: url("images/PNG/me.png");
+ 	background: url("images/PNG/me.jgeg");
   	background-size: contain;
   	border: .5em solid white;
   	border-radius: 100%;
@@ -224,7 +224,7 @@ a.bloglink {
   /* phones */
   /* line 12, ../sass/_mobile.scss */
   header {
-    height: 49.5em;
+    height: 35em;
   }
   /* line 15, ../sass/_mobile.scss */
   header h1 {
@@ -235,7 +235,7 @@ a.bloglink {
   /* line 21, ../sass/_mobile.scss */
   header h2 {
     margin: 20px auto 0 auto;
-    width: 200px;
+    width: 300px;
   }
 
   /* line 27, ../sass/_mobile.scss */
