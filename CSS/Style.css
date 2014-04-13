@@ -249,6 +249,19 @@ a.bloglink {
     margin: 50px auto 0 auto;
     width: 90%;
   }
+
+
+
+ footer nav ul li {
+		float:left;
+		list-style: none;
+		margin: -.1em auto;
+		display: inline-block;
+		
+
+
+
+ }
 }
 @media mobile, screen and (max-width: 960px) {
   /* line 39, ../sass/_mobile.scss */
